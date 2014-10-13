@@ -1,0 +1,289 @@
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+	}
+	
+	#banner-wrapper
+	{
+		padding: 5em 0 5em 0;
+	}
+	
+	#main-wrapper
+	{
+
+	}
+	
+	#footer-wrapper
+	{
+		padding: 5em 0em 5em 0em;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		overflow: hidden;
+		position: relative;
+		height: 10em;
+		padding: 0.75em 0 0 0;
+	}
+
+		#header h1
+		{
+			padding-right: 0.30em;
+			text-transform: uppercase;
+			font-size: 3.25em;
+			float: left;
+		}
+
+			#header h1 a
+			{
+				text-decoration: none;
+				color: #FFFFFF;
+			}
+			
+		#header span
+		{
+			font-weight: 300;
+		}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+		overflow: hidden;
+		height: 4.70em;
+		background: url('images/nav-bg.png') repeat-x center center;
+		border: 1px solid;
+		border-color: #0e1015;
+		border-color: rgba(0,0,0,.50);
+		box-shadow: inset 0px 1px 0px rgba(255,255,255,.20), inset 0px 0px 1px #1c1f25, inset 0px 0px 2px rgba(255,255,255,.20);
+		border-radius: 8px;
+	}
+	
+		#nav ul
+		{
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		
+			#nav > ul > li > ul
+			{
+				display: none;
+			}
+
+		#nav li
+		{
+			display: inline-block;
+			padding: 0em 1.50em;
+		}
+		
+		#nav a
+		{
+			display: inline-block;
+			line-height: 4.50em;
+			text-decoration: none;
+			text-transform: uppercase;
+			text-shadow: 1px 1px 0px #000000;
+			font-weight: 700;
+			color: #bcbcbc;
+			transition: color .25s ease-in-out;
+			-moz-transition: color .25s ease-in-out;
+			-webkit-transition: color .25s ease-in-out;
+		}
+		
+		#nav li.current_page_item a,
+		#nav li.active a,
+		#nav li:hover a
+		{
+			color: #FFFFFF;
+		}
+
+	.dropotron
+	{
+		background: rgb(31,36,42);
+		background: rgba(31,36,42,0.90);
+		border: 1px solid;
+		border-color: #0e1015;
+		border-color: rgba(0,0,0,.50);
+		box-shadow: inset 0px 1px 0px rgba(255,255,255,.20), inset 0px 0px 1px #1c1f25, inset 0px 0px 2px rgba(255,255,255,.20), 0px 2px 3px 0px rgba(0,0,0,0.25);
+		border-radius: 8px;
+		padding: 1.5em;
+		min-width: 17em;
+	}
+	
+		.dropotron li > a,
+		.dropotron li > span
+		{
+			text-decoration: none;
+			text-transform: uppercase;
+			text-shadow: 1px 1px 0px #000000;
+			font-weight: 700;
+			color: #bcbcbc;
+			line-height: 2.5em;
+			display: block;
+			transition: color .25s ease-in-out;
+			-moz-transition: color .25s ease-in-out;
+			-webkit-transition: color .25s ease-in-out;
+		}
+
+		.dropotron li:hover > a,
+		.dropotron li:hover > span
+		{
+			color: #fff;
+		}
+
+		.dropotron-level-0
+		{
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
+		}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		position: relative;
+		overflow: visible;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		overflow: hidden;
+		padding: 4em 0em;
+	}
+			
+		
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+	}
+	
+		#content .subtitle
+		{
+		}
+	
+		#content .image-full
+		{
+			float: left;
+			width: auto;
+			margin: 0 2.50em 0 0em;
+		}
+		
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+	}
+		
+/*********************************************************************************/
+/* Slider                                                                        */
+/*********************************************************************************/
+
+	#slider
+	{
+		margin: 0 auto;
+		width: 832px;
+		height: 560px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		background: url(images/monitor-frame.png) no-repeat center top;
+		background-size: 100%;
+	}
+	
+		#slider .viewer
+		{
+			width: 782px;
+			height: 379px;
+			margin: 0 auto 0 auto;
+			overflow: hidden;
+			top: 25px;
+			position: absolute;
+		}
+	
+			#slider .viewer .reel
+			{
+				display: none;
+				height: 375px;
+			}
+	
+			#slider .viewer .reel .slide
+			{
+				width: 782px;
+				height: 379px;
+			}
+
+				#slider .viewer .reel .slide img
+				{
+					width: 100%;
+					height: auto;
+				}
+	
+		#slider .shine {
+			display: block;
+			position: absolute;
+			width: 782px;
+			height: 379px;
+			background: url('images/monitor-shine.png') no-repeat right top;
+			top: 4px;
+			right: 6px;
+		}
+	
+		#slider .indicator
+		{
+			margin: 0px auto 0 auto;
+			position: absolute;
+			text-align: center;
+			bottom: 180px;
+			width: 100%;
+		}
+	
+			#slider .indicator ul
+			{
+				list-style: none;
+				padding: 0;
+			}
+	
+				#slider .indicator ul li
+				{
+					display: inline-block;
+					width: 12px;
+					height: 12px;
+					text-indent: -9999em;
+					background: rgba(255,255,255,.40);
+					margin: 0 4px 0 4px;
+					border-radius: 12px;
+				}
+	
+				#slider .indicator ul li.active
+				{
+					background: rgba(255,255,255,.75);
+				}

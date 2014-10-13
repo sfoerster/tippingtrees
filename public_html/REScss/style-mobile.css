@@ -1,0 +1,376 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		line-height: 1.75em;
+		font-size: 9.50pt;
+		letter-spacing: 0;
+	}
+
+	h2, h3, h4, h5, h6
+	{
+		font-size: 1.5em;
+	}
+
+	section,
+	article
+	{
+		clear: both;
+		margin: 1.5em 20px 2em 20px !important;
+	}
+	
+	.button
+	{
+		display: block !important;
+		text-align: center;
+		font-size: 1.25em;
+	}
+
+	.image-left
+	{
+		display: block;
+		clear: both;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+
+		.image-left img
+		{
+			width: 100%;
+		}
+	
+	.title
+	{
+	}
+	
+	.title:after
+	{
+		top: 7px;
+	}
+
+	ul.style1
+	{
+	}
+	
+		ul.style1 li
+		{
+			padding: 1em 2em;
+		}
+		
+		ul.style1 a
+		{
+		}
+
+	.box-portfolio
+	{
+	}
+	
+		.box-portfolio .portfolio-title
+		{
+			padding: 1em 0em 0.50em 0em;
+		}
+
+/*********************************************************************************/
+/* Mobile UI                                                                     */
+/*********************************************************************************/
+
+	#mobileUI-site-titlebar
+	{
+	}
+
+	#mobileUI-site-title
+	{
+		display: none;
+	}
+
+	#mobileUI-site-nav-opener
+	{
+		text-indent: -9999em;
+		width: 70px;
+		height: 50px;
+		opacity: 0.5;
+	}
+
+		#mobileUI-site-nav-opener:before
+		{
+			content: '';
+			position: absolute;
+			left: 16px;
+			top: 16px;
+			background: rgba(255,255,255,0.45);
+			width: 60px;
+			height: 36px;
+			border-radius: 5px;
+		}
+
+		#mobileUI-site-nav-opener:after
+		{
+			content: '';
+			position: absolute;
+			left: 33px;
+			top: 28px;
+			width: 44px;
+			height: 44px;
+			background: url('images/mobileUI-site-nav-opener-bg.svg') 0 0 no-repeat;
+		}
+
+		#mobileUI-site-nav-opener:active
+		{
+			opacity: 0.85;
+		}
+
+	#mobileUI-site-nav
+	{
+		background: #171717 url('images/bg01.jpg') repeat;
+		box-shadow: inset -4px 0px 10px 0px rgba(0,0,0,0.25), inset -1px 0px 0px 0px rgba(255,255,255,0.15);
+	}
+
+	#mobileUI-site-nav-inner
+	{
+	}
+
+	.mobileUI-site-nav-link
+	{
+		display: block;
+		color: #fff;
+		text-decoration: none;
+		height: 44px;
+		line-height: 44px;
+		border-top: 1px solid #000;
+		box-shadow: inset 0 1px 0 #1f2228;
+		padding: 0 1em 0 1em;
+		margin-right: 2px;
+	}
+			
+			
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#wrapper
+	{
+	}
+	
+	#wrapper-bgtop
+	{
+		background-size: auto 340px;
+	}
+
+	#header-wrapper
+	{
+		height: 12em;
+		padding-top: 0em;
+	}
+	
+	#banner-wrapper
+	{
+		padding-bottom: 2em;
+	}
+	
+	#main-wrapper
+	{
+	}
+	
+	#footer-wrapper
+	{
+		padding: 1em 0em 2em 0em;
+	}
+
+	#portfolio-wrapper
+	{
+		padding: 1em 0em;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		overflow: hidden;
+		height: 12em;
+		padding: 7em 0 0 0;
+	}
+
+		#header h1
+		{
+			padding-right: 0em;
+			text-align: center;
+			text-shadow: 0px 1px 0px rgba(0,0,0,.80);
+			text-transform: uppercase;
+			font-size: 2.75em;
+		}
+
+			#header h1 a
+			{
+				text-decoration: none;
+				color: #FFFFFF;
+			}
+			
+		#header span
+		{
+			font-weight: 300;
+		}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+		display: none;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+	}
+
+		#banner h2
+		{
+			padding-bottom: 0.50em !important;
+			letter-spacing: normal;
+			text-align: center;
+			font-size: 1.50em;
+		}
+		
+		#banner .subtitle
+		{
+			padding-bottom: 0.75em !important;
+			text-align: center;
+			letter-spacing: normal;
+			font-size: 1.10em;
+			font-weight: 200;
+		}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+	}
+	
+		#content .subtitle
+		{
+			padding: 1.50em 0em 1em 0em;
+			font-size: 1.10em;
+		}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+		padding-top: 1em;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		padding: 1em 0em 2em 0em;
+	}
+	
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio
+	{
+	}
+
+		#portfolio h2
+		{
+			padding: 0em 0em 1em 0em;
+			text-align: left;
+			font-size: 1.50em;
+		}
+		
+			#portfolio h2:before
+			{
+				display: none;
+			}
+	
+			#portfolio h2:after
+			{
+				top: 6px;
+				margin-left: 1em;
+			}
+			
+/*********************************************************************************/
+/* Slider                                                                        */
+/*********************************************************************************/
+
+	#slider
+	{
+		position: relative;
+		margin: 3em auto 3em auto;
+		width: 100%;
+		background: url(images/monitor-frame.png) no-repeat center top;
+		background-size: 100% 131%;
+		padding: 2.5% 0 2.5% 0;
+	}
+	
+		#slider .viewer
+		{
+			width: 94%;
+			height: auto;
+			margin: 0 auto 0 auto;
+			overflow: hidden;
+			position: absolute;
+		}
+	
+			#slider .viewer .reel
+			{
+				display: none;
+			}
+	
+			#slider .viewer .reel .slide
+			{
+			}
+
+			#slider .viewer .reel .slide img
+			{
+				width: 100%;
+				height: auto;
+			}
+	
+		#slider .shine {
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: auto;
+			background: url('images/monitor-shine.png') no-repeat right top;
+			background-size: 100% 100%;
+		}
+	
+		#slider .indicator
+		{
+			display: none;
+		}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright 
+	{
+		padding: 3em 2em 3em 2em;
+	}

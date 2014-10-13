@@ -1,0 +1,64 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	.button
+	{
+		background: #191d23;
+	}
+	
+		.button:hover
+		{
+			background: #22272f;
+		}
+	
+		.button:active
+		{
+			background: #10141b;
+		}
+
+	.button-big
+	{
+		background: #006eb4;
+	}
+	
+		.button-big:hover, .button-medium:hover
+		{
+			background: #0081d3;
+		}
+	
+		.button-big:active, .button-medium:active
+		{
+			background: #005399;
+		}
+
+	.button-medium
+	{
+		background: #006eb4;
+	}
+
+/*********************************************************************************/
+/* Slider                                                                        */
+/*********************************************************************************/
+
+	#slider
+	{
+	}
+	
+		#slider .indicator
+		{
+		}
+	
+			#slider .indicator ul
+			{
+			}
+	
+				#slider .indicator ul li
+				{
+					background: #888;
+				}
+	
+				#slider .indicator ul li.active
+				{
+					background: #fff;
+				}

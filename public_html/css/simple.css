@@ -1,0 +1,193 @@
+/*
+
+This is a Tutoralzine Demo 
+Original tutorial: A simple AJAX website with jQuery
+Tutorial URL: http://tutorialzine.com/2009/09/simple-ajax-website-jquery/
+
+You are free to use the following demo code for any purpose you see fit.
+
+*/
+
+
+/* Page styles */
+
+body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label{
+	margin:0px;
+	padding:0px;
+	font-family:Helvetica, sans-serif; /*Arial, */
+}
+
+body{
+/*#wrapper{*/
+	margin-top:20px;
+	color: #FFFFFF; /*#B3C8A2; /*#AEBC97; /*#51775C; /* default body text color */
+	font-size:13px;
+	background-image:url('../img/bg/gbbg.jpg');
+	/*background-repeat:repeat-xy; */
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-position:left top;
+	background-color: #000000; /*#BAF978; /*#123456;*/
+	text-align:center;
+}
+
+p {
+	text-indent: 0em; /*1em;*/
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.clear{
+	height:10px;
+	clear:both;
+}
+
+a, a:visited {
+	/* color:#007bc4; */
+	color: #42AE20; /*#329E10; /*#6EB032; /* #215632; */
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	/* text-decoration:underline; */
+	color: #52BE30; /*#42AE20; /*#9EAF5C; /* #339944; */
+}
+
+#rounded{
+	width:800px;
+	margin:20px auto;
+	text-align:left;
+}
+
+.container{
+	background-color:#FFFFFF;
+	padding:10px 20px 20px 20px;
+}
+
+h1{
+	font-size:28px;
+	font-weight:bold;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+}
+
+h2{
+	font-weight:normal;
+	font-size:20px;
+	
+	color:#777777;
+}
+
+ul.ttnav{
+	margin:10px 0px;
+}
+
+ul.ttnav li{
+	list-style:none;
+	display:block;
+	float:left;
+	width:100px;
+}
+
+.navoff {
+	background-color:#005010;
+	display:block;
+}
+
+.navon {
+	background-color:#666666 !important;
+	display:block;
+}
+
+ul.ttnav li a,ul.ttnav li a:visited{
+	padding:5px 10px;
+	text-align:center;
+	background-color:#005010;
+	color:white;
+	
+	-moz-border-radius:5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+
+	display:block;
+	margin-right:10px;
+}
+
+ul.ttnav li a:hover{
+	background-color:#666666;
+	text-decoration:none;
+}
+
+ul.locklist{
+	list-style-image: url('../img/menu_lock.gif');
+}
+
+
+ol li {
+	/*height: 27px; */
+	padding-left: 5px;
+	margin-left: 50px;
+}
+
+ul.locklist li{
+	height: 27px;
+	padding-left: 5px;
+	margin-left: 50px;
+}
+
+ul.acklist li{
+	/*height: 27px;*/
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 50px;
+}
+
+#pageContent{
+	margin-top:10px;
+	
+	background-color: #1A1A1A; /*#A3E491;*/
+	background-image:url("../img/bg/BG_Wings.png");
+	background-repeat: repeat;
+	background-position:center top;
+
+	border:1px #cccccc; /*dashed*/
+	padding:10px;
+		
+/*	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;*/
+	border-radius: 5px;
+}
+
+.divmh {
+	min-height: 130px;
+}
+
+#loading{
+	visibility:hidden;
+}
+
+.demo{
+	color:white;
+}
+
+table {
+	border-collapse:collapse;
+	/* table-layout: fixed; */
+	
+}
+
+td {
+	padding-top:0px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:0px;
+	
+	/* word-wrap: break-all; */
+}
+
+.statusMessage {
+	color: #AE0109; /*#005010;*/
+}

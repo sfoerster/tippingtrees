@@ -1,0 +1,38 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	.button
+	{
+		background: url('images/button.svg');
+	}
+	
+		.button:hover
+		{
+			background: url('images/button-hover.svg');
+		}
+	
+		.button:active
+		{
+			background: url('images/button-active.svg');
+		}
+
+	.button-big
+	{
+		background: url('images/button-alt.svg');
+	}
+	
+		.button-big:hover, .button-medium:hover
+		{
+			background: url('images/button-alt-hover.svg');
+		}
+	
+		.button-big:active, .button-medium:active
+		{
+			background: url('images/button-alt-active.svg');
+		}
+
+	.button-medium
+	{
+		background: url('images/button-alt.svg');
+	}
